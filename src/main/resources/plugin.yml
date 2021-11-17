@@ -1,0 +1,4 @@
+name: Craftconomy
+version: ${project.version}
+main: fr.historya.placeholders.craftconomy.Craftconomy
+api-version: 1.15
