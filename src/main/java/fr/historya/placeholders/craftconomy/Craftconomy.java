@@ -37,7 +37,7 @@ public class Craftconomy extends PlaceholderExpansion {
     @Override
     public String onRequest(final OfflinePlayer player, @NotNull String placeholder) {
         if (player == null) {
-            return "";
+            return "0";
         } else {
 
             try {
@@ -48,10 +48,10 @@ public class Craftconomy extends PlaceholderExpansion {
                 }
             } catch(Exception e) {
                 Bukkit.getLogger().warning(e.getMessage());
-                return "";
+                return "0";
             }
 
-            return placeholder;
+            return "0";
         }
     }
 
